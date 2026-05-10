@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Challenge-specific files that send for me except the pdf file
+briefing/*.pdf

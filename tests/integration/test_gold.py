@@ -15,7 +15,11 @@ def test_gold_process_customers():
         gold_path,
         rejected_path,
         GoldCustomer,
-        field_transforms={"email": ("email_masked", gold._mask_email)},
+        field_transforms={
+            "email": ("email_masked", gold._mask_email),
+            "phone": ("phone_masked", gold._mask_phone),
+            "name": ("name_masked", gold._mask_name),
+        },
     )
 
     assert result == {
@@ -29,8 +33,13 @@ def test_gold_process_customers():
 
     assert header == list(GoldCustomer.model_fields.keys())
     assert "email_masked" in header
-    assert "email" not in header
+    assert "phone_masked" in header
+    assert "name_masked" in header
     assert "processed_at" in header
+
+    assert "email" not in header
+    assert "phone" not in header
+    assert "name" not in header
 
 
 def test_gold_process_orders_fk_constraint():
@@ -65,4 +74,4 @@ def test_gold_process_orders_fk_constraint():
     with open(rejected_path, encoding="utf-8") as f:
         rejected_rows = f.readlines()
 
-    assert len(rejected_rows) == 7 
+    assert len(rejected_rows) == 7

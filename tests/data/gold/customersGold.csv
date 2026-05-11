@@ -1,59 +1,59 @@
-customer_id,cpf_hash,name,email_masked,phone,city,state,created_at,status,processed_at
-C0001,hash_0001_3286,Ana Oliveira,30e@outlook.com,21939958838,Campinas,SP,2024-01-07,active,2026-05-11T13:11:07.966092+00:00
-C0002,hash_0002_2535,Bruno Oliveira,6d2@empresa.com.br,11913999315,Londrina,PR,2024-01-23,active,2026-05-11T13:11:07.966092+00:00
-C0003,hash_0003_9928,Carla Santos,1bc@email.com,71936687537,Londrina,PR,2024-06-03,inactive,2026-05-11T13:11:07.966092+00:00
-C0004,hash_0004_7924,Diego Santos,85a@outlook.com,11931429110,Curitiba,PR,2024-05-30,active,2026-05-11T13:11:07.966092+00:00
-C0005,hash_0005_7224,Fernanda Lima,b2f@outlook.com,11922448136,Santos,SP,2024-02-25,active,2026-05-11T13:11:07.966092+00:00
-C0006,hash_0006_9785,Gabriel Rocha,716@outlook.com,11971662963,Belo Horizonte,MG,2024-06-03,active,2026-05-11T13:11:07.966092+00:00
-C0007,hash_0007_4150,Helena Cardoso,,71958537831,Uberlândia,MG,2024-01-21,active,2026-05-11T13:11:07.966092+00:00
-C0008,hash_0008_2654,Igor Silva,4b9@outlook.com,11941244663,Rio de Janeiro,RJ,2024-07-16,inactive,2026-05-11T13:11:07.966092+00:00
-C0009,hash_0009_6820,Juliana Lima,5b0@outlook.com,21959684848,Curitiba,PR,2024-06-11,active,2026-05-11T13:11:07.966092+00:00
-C0010,hash_0010_3803,Lucas Oliveira,875@email.com,71995225343,Niterói,RJ,2024-06-28,blocked,2026-05-11T13:11:07.966092+00:00
-C0011,hash_0011_4598,Mariana Souza,1e0@empresa.com.br,41946231783,Rio de Janeiro,RJ,2024-02-11,active,2026-05-11T13:11:07.966092+00:00
-C0012,hash_0012_5386,Rafael Barbosa,fe0@email.com,,São Paulo,SP,2024-02-28,active,2026-05-11T13:11:07.966092+00:00
-C0013,hash_0013_9179,Patricia Santos,ab1@outlook.com,21997971488,Salvador,BA,2024-08-12,inactive,2026-05-11T13:11:07.966092+00:00
-C0014,hash_0014_9830,Thiago Cardoso,736@outlook.com,21943101783,Curitiba,PR,2024-02-06,active,2026-05-11T13:11:07.966092+00:00
-C0015,hash_0015_3266,Camila Souza,cae@empresa.com.br,31939436733,Salvador,BA,2024-04-19,blocked,2026-05-11T13:11:07.966092+00:00
-C0016,hash_0016_3621,Rodrigo Almeida,d98@email.com,11930514014,Campinas,SP,2024-07-12,inactive,2026-05-11T13:11:07.966092+00:00
-C0017,hash_0017_9669,Beatriz Pereira,199@empresa.com.br,71972820592,Campinas,SP,08/04/2024,active,2026-05-11T13:11:07.966092+00:00
-C0018,hash_0018_6573,Eduardo Freitas,587@email.com,71945812670,São Paulo,SP,2024-06-23,active,2026-05-11T13:11:07.966092+00:00
-C0019,hash_0019_9201,Larissa Lima,,11945351479,Uberlândia,MG,2024-02-10,active,2026-05-11T13:11:07.966092+00:00
-C0020,hash_0020_4258,Felipe Freitas,a2a@outlook.com,71991734598,Campinas,SP,2024-08-10,active,2026-05-11T13:11:07.966092+00:00
-C0021,hash_0021_9005,Aline Rocha,b2f@email.com,71953507489,Santos,SP,2024-05-18,active,2026-05-11T13:11:07.966092+00:00
-C0022,hash_0022_4946,Matheus Costa,c1f@outlook.com,21917774584,Belo Horizonte,MG,2024-08-12,blocked,2026-05-11T13:11:07.966092+00:00
-C0023,hash_0023_3060,Vanessa Costa,ab5@empresa.com.br,11981498611,Campinas,SP,2024/07/06,active,2026-05-11T13:11:07.966092+00:00
-C0024,hash_0024_7932,Gustavo Oliveira,de1@gmail.com,31980823176,Curitiba,PR,2024-05-20,active,2026-05-11T13:11:07.966092+00:00
-C0026,hash_0026_2049,João Cardoso,4d7@email.com,21940158366,Londrina,PR,2024-04-25,active,2026-05-11T13:11:07.966092+00:00
-C0027,hash_0027_1117,Priscila Silva,ebf@gmail.com,71939557077,Salvador,BA,2024-05-21,active,2026-05-11T13:11:07.966092+00:00
-C0028,hash_0028_2160,André Souza,14d@email.com,11954349361,São Paulo,SP,2024-02-28,blocked,2026-05-11T13:11:07.966092+00:00
-C0029,hash_0029_3167,Natália Santos,c06@empresa.com.br,21982374753,Niterói,RJ,2024-06-20,blocked,2026-05-11T13:11:07.966092+00:00
-C0030,hash_0030_2545,Caio Pereira,713@empresa.com.br,41935556386,Curitiba,PR,2024-03-03,active,2026-05-11T13:11:07.966092+00:00
-C0031,hash_0031_1887,Bianca Oliveira,e26@empresa.com.br,41972682989,Uberlândia,MG,2024-03-31,active,2026-05-11T13:11:07.966092+00:00
-C0032,hash_0032_4139,Leonardo Silva,f8c@outlook.com,11943374088,Uberlândia,MG,2024-07-05,active,2026-05-11T13:11:07.966092+00:00
-C0033,hash_0033_8579,Isabela Freitas,3f9@empresa.com.br,,Curitiba,PR,2024-02-05,active,2026-05-11T13:11:07.966092+00:00
-C0034,hash_0034_9856,Marcelo Barbosa,a65@email.com,11997529405,Campinas,SP,23/04/2024,active,2026-05-11T13:11:07.966092+00:00
-C0035,hash_0035_4502,Tatiane Costa,6e2@empresa.com.br,41974606833,Rio de Janeiro,RJ,2024-02-12,inactive,2026-05-11T13:11:07.966092+00:00
-C0036,hash_0036_5345,Vinicius Cardoso,e7d@empresa.com.br,11962401521,São Paulo,SP,2024-02-12,inactive,2026-05-11T13:11:07.966092+00:00
-C0037,hash_0037_5861,Leticia Lima,3af@empresa.com.br,21935487660,Uberlândia,MG,2024-06-27,active,2026-05-11T13:11:07.966092+00:00
-C0038,hash_0038_1821,Henrique Silva,0bb@email.com,31917672593,Salvador,BA,2024-07-07,blocked,2026-05-11T13:11:07.966092+00:00
-C0039,hash_0039_2312,Sofia Almeida,336@gmail.com,11978159587,Londrina,PR,2024-08-23,active,2026-05-11T13:11:07.966092+00:00
-C0040,hash_0040_5033,Daniel Costa,942@gmail.com,41926090908,Salvador,BA,2024-01-18,blocked,2026-05-11T13:11:07.966092+00:00
-C0041,hash_0041_9565,Amanda Pereira,,41998231132,São Paulo,SP,2024-06-07,active,2026-05-11T13:11:07.966092+00:00
-C0042,hash_0042_7484,Murilo Cardoso,c76@outlook.com,21945650176,Niterói,RJ,2024-02-22,active,2026-05-11T13:11:07.966092+00:00
-C0043,hash_0043_8508,Paula Oliveira,21e@outlook.com,11911250299,Niterói,RJ,2024-04-27,blocked,2026-05-11T13:11:07.966092+00:00
-C0044,hash_0044_3170,Ricardo Pereira,9af@gmail.com,71945594597,Campinas,SP,2024-01-19,active,2026-05-11T13:11:07.966092+00:00
-C0045,hash_0045_3584,Débora Cardoso,7e5@gmail.com,31948250360,Campinas,SP,2024-08-13,inactive,2026-05-11T13:11:07.966092+00:00
-C0046,hash_0046_9666,Alexandre Barbosa,9d2@outlook.com,71997775215,Londrina,PR,2024/06/29,active,2026-05-11T13:11:07.966092+00:00
-C0047,hash_0047_2891,Luana Oliveira,4c6@email.com,21945496015,Londrina,PR,2024-03-17,active,2026-05-11T13:11:07.966092+00:00
-C0048,hash_0048_4450,Samuel Souza,465@outlook.com,31991178885,Londrina,PR,2024-02-09,active,2026-05-11T13:11:07.966092+00:00
-C0049,hash_0049_2512,Mirela Santos,2a3@empresa.com.br,31916818112,Niterói,RJ,2024-05-09,inactive,2026-05-11T13:11:07.966092+00:00
-C0050,hash_0050_5291,Otávio Barbosa,d4b@email.com,31927558317,Niterói,RJ,2024-01-12,active,2026-05-11T13:11:07.966092+00:00
-C0051,hash_0051_2832,Ana Souza,6ca@empresa.com.br,71911297845,Curitiba,PR,21/05/2024,active,2026-05-11T13:11:07.966092+00:00
-C0053,hash_0053_4441,Carla Mendes,055@outlook.com,11958024342,São Paulo,SP,2024-03-19,active,2026-05-11T13:11:07.966092+00:00
-C0054,hash_0054_4878,Diego Oliveira,d42@empresa.com.br,71930743797,Campinas,SP,2024-03-31,active,2026-05-11T13:11:07.966092+00:00
-C0055,hash_0055_6442,Fernanda Nunes,5d8@empresa.com.br,11934073380,Santos,SP,2024-08-13,inactive,2026-05-11T13:11:07.966092+00:00
-C0056,hash_0056_1634,Gabriel Nunes,a80@gmail.com,11961343880,Rio de Janeiro,RJ,2024-03-09,inactive,2026-05-11T13:11:07.966092+00:00
-C0057,hash_0057_4728,Helena Santos,ce8@empresa.com.br,31950962024,Rio de Janeiro,RJ,2024-07-28,active,2026-05-11T13:11:07.966092+00:00
-C0058,hash_0058_5573,Igor Silva,4b9@outlook.com,31919317495,Rio de Janeiro,RJ,2024-04-12,active,2026-05-11T13:11:07.966092+00:00
-C0059,hash_0059_5279,Juliana Oliveira,dc5@outlook.com,11925480907,Londrina,PR,2024-04-12,active,2026-05-11T13:11:07.966092+00:00
-C0060,hash_0060_6663,Lucas Pereira,839@email.com,71968326160,Niterói,RJ,2024-01-10,active,2026-05-11T13:11:07.966092+00:00
+customer_id,cpf_hash,name_masked,email_masked,phone_masked,city,state,created_at,status,processed_at
+C0001,hash_0001_3286,Ana ***********,*****@outlook.com,*******8838,Campinas,SP,2024-01-07,active,2026-05-11T14:18:02.772206+00:00
+C0002,hash_0002_2535,Bruno ***********,*****@empresa.com.br,*******9315,Londrina,PR,2024-01-23,active,2026-05-11T14:18:02.772206+00:00
+C0003,hash_0003_9928,Carla *********,*****@email.com,*******7537,Londrina,PR,2024-06-03,inactive,2026-05-11T14:18:02.772206+00:00
+C0004,hash_0004_7924,Diego *********,*****@outlook.com,*******9110,Curitiba,PR,2024-05-30,active,2026-05-11T14:18:02.772206+00:00
+C0005,hash_0005_7224,Fernanda *******,*****@outlook.com,*******8136,Santos,SP,2024-02-25,active,2026-05-11T14:18:02.772206+00:00
+C0006,hash_0006_9785,Gabriel ********,*****@outlook.com,*******2963,Belo Horizonte,MG,2024-06-03,active,2026-05-11T14:18:02.772206+00:00
+C0007,hash_0007_4150,Helena **********,,*******7831,Uberlândia,MG,2024-01-21,active,2026-05-11T14:18:02.772206+00:00
+C0008,hash_0008_2654,Igor ********,*****@outlook.com,*******4663,Rio de Janeiro,RJ,2024-07-16,inactive,2026-05-11T14:18:02.772206+00:00
+C0009,hash_0009_6820,Juliana *******,*****@outlook.com,*******4848,Curitiba,PR,2024-06-11,active,2026-05-11T14:18:02.772206+00:00
+C0010,hash_0010_3803,Lucas ***********,*****@email.com,*******5343,Niterói,RJ,2024-06-28,blocked,2026-05-11T14:18:02.772206+00:00
+C0011,hash_0011_4598,Mariana ********,*****@empresa.com.br,*******1783,Rio de Janeiro,RJ,2024-02-11,active,2026-05-11T14:18:02.772206+00:00
+C0012,hash_0012_5386,Rafael **********,*****@email.com,,São Paulo,SP,2024-02-28,active,2026-05-11T14:18:02.772206+00:00
+C0013,hash_0013_9179,Patricia *********,*****@outlook.com,*******1488,Salvador,BA,2024-08-12,inactive,2026-05-11T14:18:02.772206+00:00
+C0014,hash_0014_9830,Thiago **********,*****@outlook.com,*******1783,Curitiba,PR,2024-02-06,active,2026-05-11T14:18:02.772206+00:00
+C0015,hash_0015_3266,Camila ********,*****@empresa.com.br,*******6733,Salvador,BA,2024-04-19,blocked,2026-05-11T14:18:02.772206+00:00
+C0016,hash_0016_3621,Rodrigo **********,*****@email.com,*******4014,Campinas,SP,2024-07-12,inactive,2026-05-11T14:18:02.772206+00:00
+C0017,hash_0017_9669,Beatriz **********,*****@empresa.com.br,*******0592,Campinas,SP,08/04/2024,active,2026-05-11T14:18:02.772206+00:00
+C0018,hash_0018_6573,Eduardo **********,*****@email.com,*******2670,São Paulo,SP,2024-06-23,active,2026-05-11T14:18:02.772206+00:00
+C0019,hash_0019_9201,Larissa *******,,*******1479,Uberlândia,MG,2024-02-10,active,2026-05-11T14:18:02.772206+00:00
+C0020,hash_0020_4258,Felipe **********,*****@outlook.com,*******4598,Campinas,SP,2024-08-10,active,2026-05-11T14:18:02.772206+00:00
+C0021,hash_0021_9005,Aline ********,*****@email.com,*******7489,Santos,SP,2024-05-18,active,2026-05-11T14:18:02.772206+00:00
+C0022,hash_0022_4946,Matheus ********,*****@outlook.com,*******4584,Belo Horizonte,MG,2024-08-12,blocked,2026-05-11T14:18:02.772206+00:00
+C0023,hash_0023_3060,Vanessa ********,*****@empresa.com.br,*******8611,Campinas,SP,2024/07/06,active,2026-05-11T14:18:02.772206+00:00
+C0024,hash_0024_7932,Gustavo ***********,*****@gmail.com,*******3176,Curitiba,PR,2024-05-20,active,2026-05-11T14:18:02.772206+00:00
+C0026,hash_0026_2049,João **********,*****@email.com,*******8366,Londrina,PR,2024-04-25,active,2026-05-11T14:18:02.772206+00:00
+C0027,hash_0027_1117,Priscila ********,*****@gmail.com,*******7077,Salvador,BA,2024-05-21,active,2026-05-11T14:18:02.772206+00:00
+C0028,hash_0028_2160,André ********,*****@email.com,*******9361,São Paulo,SP,2024-02-28,blocked,2026-05-11T14:18:02.772206+00:00
+C0029,hash_0029_3167,Natália *********,*****@empresa.com.br,*******4753,Niterói,RJ,2024-06-20,blocked,2026-05-11T14:18:02.772206+00:00
+C0030,hash_0030_2545,Caio **********,*****@empresa.com.br,*******6386,Curitiba,PR,2024-03-03,active,2026-05-11T14:18:02.772206+00:00
+C0031,hash_0031_1887,Bianca ***********,*****@empresa.com.br,*******2989,Uberlândia,MG,2024-03-31,active,2026-05-11T14:18:02.772206+00:00
+C0032,hash_0032_4139,Leonardo ********,*****@outlook.com,*******4088,Uberlândia,MG,2024-07-05,active,2026-05-11T14:18:02.772206+00:00
+C0033,hash_0033_8579,Isabela **********,*****@empresa.com.br,,Curitiba,PR,2024-02-05,active,2026-05-11T14:18:02.772206+00:00
+C0034,hash_0034_9856,Marcelo **********,*****@email.com,*******9405,Campinas,SP,23/04/2024,active,2026-05-11T14:18:02.772206+00:00
+C0035,hash_0035_4502,Tatiane ********,*****@empresa.com.br,*******6833,Rio de Janeiro,RJ,2024-02-12,inactive,2026-05-11T14:18:02.772206+00:00
+C0036,hash_0036_5345,Vinicius **********,*****@empresa.com.br,*******1521,São Paulo,SP,2024-02-12,inactive,2026-05-11T14:18:02.772206+00:00
+C0037,hash_0037_5861,Leticia *******,*****@empresa.com.br,*******7660,Uberlândia,MG,2024-06-27,active,2026-05-11T14:18:02.772206+00:00
+C0038,hash_0038_1821,Henrique ********,*****@email.com,*******2593,Salvador,BA,2024-07-07,blocked,2026-05-11T14:18:02.772206+00:00
+C0039,hash_0039_2312,Sofia **********,*****@gmail.com,*******9587,Londrina,PR,2024-08-23,active,2026-05-11T14:18:02.772206+00:00
+C0040,hash_0040_5033,Daniel ********,*****@gmail.com,*******0908,Salvador,BA,2024-01-18,blocked,2026-05-11T14:18:02.772206+00:00
+C0041,hash_0041_9565,Amanda **********,,*******1132,São Paulo,SP,2024-06-07,active,2026-05-11T14:18:02.772206+00:00
+C0042,hash_0042_7484,Murilo **********,*****@outlook.com,*******0176,Niterói,RJ,2024-02-22,active,2026-05-11T14:18:02.772206+00:00
+C0043,hash_0043_8508,Paula ***********,*****@outlook.com,*******0299,Niterói,RJ,2024-04-27,blocked,2026-05-11T14:18:02.772206+00:00
+C0044,hash_0044_3170,Ricardo **********,*****@gmail.com,*******4597,Campinas,SP,2024-01-19,active,2026-05-11T14:18:02.772206+00:00
+C0045,hash_0045_3584,Débora **********,*****@gmail.com,*******0360,Campinas,SP,2024-08-13,inactive,2026-05-11T14:18:02.772206+00:00
+C0046,hash_0046_9666,Alexandre **********,*****@outlook.com,*******5215,Londrina,PR,2024/06/29,active,2026-05-11T14:18:02.772206+00:00
+C0047,hash_0047_2891,Luana ***********,*****@email.com,*******6015,Londrina,PR,2024-03-17,active,2026-05-11T14:18:02.772206+00:00
+C0048,hash_0048_4450,Samuel ********,*****@outlook.com,*******8885,Londrina,PR,2024-02-09,active,2026-05-11T14:18:02.772206+00:00
+C0049,hash_0049_2512,Mirela *********,*****@empresa.com.br,*******8112,Niterói,RJ,2024-05-09,inactive,2026-05-11T14:18:02.772206+00:00
+C0050,hash_0050_5291,Otávio **********,*****@email.com,*******8317,Niterói,RJ,2024-01-12,active,2026-05-11T14:18:02.772206+00:00
+C0051,hash_0051_2832,Ana ********,*****@empresa.com.br,*******7845,Curitiba,PR,21/05/2024,active,2026-05-11T14:18:02.772206+00:00
+C0053,hash_0053_4441,Carla *********,*****@outlook.com,*******4342,São Paulo,SP,2024-03-19,active,2026-05-11T14:18:02.772206+00:00
+C0054,hash_0054_4878,Diego ***********,*****@empresa.com.br,*******3797,Campinas,SP,2024-03-31,active,2026-05-11T14:18:02.772206+00:00
+C0055,hash_0055_6442,Fernanda ********,*****@empresa.com.br,*******3380,Santos,SP,2024-08-13,inactive,2026-05-11T14:18:02.772206+00:00
+C0056,hash_0056_1634,Gabriel ********,*****@gmail.com,*******3880,Rio de Janeiro,RJ,2024-03-09,inactive,2026-05-11T14:18:02.772206+00:00
+C0057,hash_0057_4728,Helena *********,*****@empresa.com.br,*******2024,Rio de Janeiro,RJ,2024-07-28,active,2026-05-11T14:18:02.772206+00:00
+C0058,hash_0058_5573,Igor ********,*****@outlook.com,*******7495,Rio de Janeiro,RJ,2024-04-12,active,2026-05-11T14:18:02.772206+00:00
+C0059,hash_0059_5279,Juliana ***********,*****@outlook.com,*******0907,Londrina,PR,2024-04-12,active,2026-05-11T14:18:02.772206+00:00
+C0060,hash_0060_6663,Lucas **********,*****@email.com,*******6160,Niterói,RJ,2024-01-10,active,2026-05-11T14:18:02.772206+00:00

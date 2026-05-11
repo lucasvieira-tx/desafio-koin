@@ -63,6 +63,7 @@ desafio-koin/
 ---
 
 ## How to Run
+
 To run this project the Python is needed.
 
 ### 1 - Create a virtual enviromment and activate
@@ -71,24 +72,31 @@ To run this project the Python is needed.
 python -m venv .venv
 source .venv/bin/activate
 ```
+
 ### 2 - INstall all dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3 - Run the pipeline 
+### 3 - Run the pipeline
+
 ```bash
 python src/pipeline.py
 ```
 
 ## How to Run Tests
+
 ```bash
 pytest tests/ -v
 ```
+
 ---
 
 ## Expected generated Outputs
+
 When execute the flow this files will be created
+
 ```
 data/bronze/
 data/silver/

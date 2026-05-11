@@ -1,5 +1,3 @@
-import csv
-
 from src.layers.gold import GoldProcessor
 from src.schemas.customers import GoldCustomer
 from src.schemas.orders import GoldOrder

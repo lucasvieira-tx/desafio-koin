@@ -1,11 +1,11 @@
 ## About Project
 
 This is the project to challenge from Koin, in resume the project is a pipeline creation with medalion architecture layer.
-Bronze - Ingestion layer
-Silver - Treatment layer
-Gold - Bussiness consuption layer
+**Bronze** - Ingestion layer
+**Silver** - Treatment layer
+**Gold** - Bussiness consuption layer
 
-## The project is using Python with lib to read CSV, validation schemas (Pydantic) and tests using Pytest. More explain in file [explain-decisions](explain-decisions.md)
+The project is using Python with lib to read CSV, validation schemas (Pydantic) and tests using Pytest. More explain in file [explain-decisions](explain-decisions.md)
 
 ## Architecture
 

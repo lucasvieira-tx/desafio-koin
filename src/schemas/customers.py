@@ -3,6 +3,7 @@ from typing import Optional, Literal
 from datetime import datetime
 from src.utils.date_parser import parse_date
 
+
 class BronzeCustomer(BaseModel):
     model_config = {"str_strip_whitespace": True}
 
@@ -15,6 +16,7 @@ class BronzeCustomer(BaseModel):
     state: str
     created_at: str
     status: str
+
 
 class SilverCustomer(BaseModel):
     model_config = {"str_strip_whitespace": True, "extra": "ignore"}
@@ -43,7 +45,9 @@ class SilverCustomer(BaseModel):
             parse_date(v)
             return v
         except ValueError:
-            raise ValueError(f"created_at must be in the format 'YYYY-MM-DD', got '{v}'")
+            raise ValueError(
+                f"created_at must be in the format 'YYYY-MM-DD', got '{v}'"
+            )
 
 
 class GoldCustomer(BaseModel):
@@ -51,9 +55,9 @@ class GoldCustomer(BaseModel):
 
     customer_id: str
     cpf_hash: str
-    name: str
+    name_masked: str
     email_masked: Optional[str] = None
-    phone: Optional[str] = None
+    phone_masked: Optional[str] = None
     city: str
     state: str
     created_at: str

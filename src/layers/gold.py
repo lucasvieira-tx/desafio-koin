@@ -45,7 +45,9 @@ class GoldProcessor:
             if fk_field and valid_foreign_keys is not None:
                 fk_value = row.get(fk_field)
                 if fk_value not in valid_foreign_keys:
-                    rejected_records.append(self._build_fk_rejection(row, fk_field, fk_value))
+                    rejected_records.append(
+                        self._build_fk_rejection(row, fk_field, fk_value)
+                    )
                     continue
 
             gold_row = dict(row)
@@ -76,9 +78,25 @@ class GoldProcessor:
         if not email or "@" not in email:
             return None
 
-        name, domain = email.split("@", 1)
-        masked = hashlib.sha256(name.encode()).hexdigest()[:3]
+        _, domain = email.split("@", 1)
+        masked = "*" * 5
         return f"{masked}@{domain}"
+
+    def _mask_phone(self, phone: str | None) -> str | None:
+        """LGPD: masks phone number, keeping only last 4 digits visible."""
+        if not phone or len(phone) < 4:
+            return None
+        masked = "*" * (len(phone) - 4)
+        return f"{masked}{phone[-4:]}"
+
+    def _mask_name(self, name: str) -> str:
+        """LGPD: masks name, keeping only first letter and length visible."""
+        if not name:
+            return None
+        
+        name, last_name = name.split()
+        masked = "*" * (len(last_name) + 3)
+        return f"{name} {masked}"
 
     def _build_fk_rejection(self, row: dict, fk_field: str, fk_value: str) -> dict:
         return {

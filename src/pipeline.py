@@ -23,8 +23,12 @@ def run_pipeline(data_dir: Path = Path("data")) -> None:
     gold = GoldProcessor()
 
     # TODO: Implement the bronze layer
-    bronze.process(raw_path / "customers.csv", bronze_path / "customersBronze.csv", BronzeCustomer)
-    bronze.process(raw_path / "orders.csv", bronze_path / "ordersBronze.csv", BronzeOrder)
+    bronze.process(
+        raw_path / "customers.csv", bronze_path / "customersBronze.csv", BronzeCustomer
+    )
+    bronze.process(
+        raw_path / "orders.csv", bronze_path / "ordersBronze.csv", BronzeOrder
+    )
 
     # TODO: Implement the silver layer
     silver.process(
@@ -47,14 +51,20 @@ def run_pipeline(data_dir: Path = Path("data")) -> None:
     )
 
     # TODO: Implement the gold layer
-    valid_customer_ids = {row["customer_id"] for row in read_csv(silver_path / "customersSilver.csv")}
+    valid_customer_ids = {
+        row["customer_id"] for row in read_csv(silver_path / "customersSilver.csv")
+    }
 
     gold.process(
         silver_path / "customersSilver.csv",
         gold_path / "customersGold.csv",
         rejected_path / "customersGoldRejected.csv",
         GoldCustomer,
-        field_transforms={"email": ("email_masked", gold._mask_email)},
+        field_transforms={
+            "email": ("email_masked", gold._mask_email),
+            "phone": ("phone_masked", gold._mask_phone),
+            "name": ("name_masked", gold._mask_name),
+        },
     )
 
     gold.process(

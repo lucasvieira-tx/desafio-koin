@@ -5,7 +5,7 @@ from typing import Callable, Type
 
 from pydantic import BaseModel
 
-from src.utils.csv_io import append_csv, read_csv, write_csv
+from src.utils.csv_io import read_csv, write_csv
 
 REJECTED_FIELDS = ["rejection_layer", "rejection_reason"]
 
@@ -38,15 +38,14 @@ class GoldProcessor:
 
         silver_rows = list(read_csv(silver_path))
         valid_records = []
-        rejected_fk_count = 0
+        rejected_records = []
         processed_at = datetime.now(timezone.utc).isoformat()
 
         for row in silver_rows:
             if fk_field and valid_foreign_keys is not None:
                 fk_value = row.get(fk_field)
                 if fk_value not in valid_foreign_keys:
-                    self._reject_fk(row, rejected_path, fk_field, fk_value)
-                    rejected_fk_count += 1
+                    rejected_records.append(self._build_fk_rejection(row, fk_field, fk_value))
                     continue
 
             gold_row = dict(row)
@@ -62,10 +61,14 @@ class GoldProcessor:
         fieldnames = list(schema.model_fields.keys())
         write_csv(gold_path, valid_records, fieldnames)
 
+        if rejected_records:
+            rejected_fieldnames = list(silver_rows[0].keys()) + REJECTED_FIELDS
+            write_csv(rejected_path, rejected_records, rejected_fieldnames)
+
         return {
             "total_silver": len(silver_rows),
             "valid": len(valid_records),
-            "rejected_fk_violations": rejected_fk_count,
+            "rejected_fk_violations": len(rejected_records),
         }
 
     def _mask_email(self, email: str | None) -> str | None:
@@ -77,14 +80,9 @@ class GoldProcessor:
         masked = hashlib.sha256(name.encode()).hexdigest()[:3]
         return f"{masked}@{domain}"
 
-    def _reject_fk(
-        self, row: dict, rejected_path: Path, fk_field: str, fk_value: str
-    ) -> None:
-        rejection_record = {
+    def _build_fk_rejection(self, row: dict, fk_field: str, fk_value: str) -> dict:
+        return {
             **row,
             "rejection_layer": "gold",
             "rejection_reason": f"foreign_key_violation:{fk_field}={fk_value} not found in valid set",
         }
-
-        fieldnames = list(row.keys()) + [f for f in REJECTED_FIELDS if f not in row]
-        append_csv(rejected_path, [rejection_record], fieldnames)

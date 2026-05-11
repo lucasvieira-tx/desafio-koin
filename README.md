@@ -82,7 +82,7 @@ pip install -r requirements.txt
 ### 3 - Run the pipeline
 
 ```bash
-python -m src.pipeline.py
+python -m src.pipeline
 ```
 
 ## How to Run Tests

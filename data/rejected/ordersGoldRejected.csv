@@ -1,0 +1,7 @@
+order_id,customer_id,order_date,amount,payment_method,status,rejection_layer,rejection_reason
+O00056,C0052,2024-08-03,339.81,boleto,refunded,gold,foreign_key_violation:customer_id=C0052 not found in valid set
+O00073,C9999,2024-09-11,902.94,credit_card,paid,gold,foreign_key_violation:customer_id=C9999 not found in valid set
+O00075,C0025,2024-08-27,865.37,boleto,refunded,gold,foreign_key_violation:customer_id=C0025 not found in valid set
+O00102,C0052,2024-07-31,68155,boleto,refunded,gold,foreign_key_violation:customer_id=C0052 not found in valid set
+O00132,C0025,2024-08-31,123.65,debit_card,refunded,gold,foreign_key_violation:customer_id=C0025 not found in valid set
+O00144,C0052,2024-08-07,,boleto,paid,gold,foreign_key_violation:customer_id=C0052 not found in valid set
